@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90d-t6-n89">
-                                <rect key="frame" x="16" y="44" width="175" height="47"/>
+                                <rect key="frame" x="16" y="44" width="109" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="이미지뷰로 이동"/>
                                 <connections>
@@ -29,11 +29,20 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kfo-2d-XRn">
-                                <rect key="frame" x="199" y="44" width="175" height="47"/>
+                                <rect key="frame" x="133" y="44" width="129" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="데이트 피커뷰로 이동"/>
                                 <connections>
                                     <action selector="btnMoveDatePickerView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Of4-Y6-8G1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ds-f4-U0y">
+                                <rect key="frame" x="270" y="44" width="120" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="피커뷰로 이동"/>
+                                <connections>
+                                    <action selector="btnMoveDatePickerView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1bc-Y7-UDi"/>
+                                    <action selector="btnMoveToPickerVIew:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u6T-Iy-7ud"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -60,6 +69,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="z1L-Db-zu0"/>
                         <segue destination="yD4-nC-dCj" kind="relationship" relationship="viewControllers" id="5cG-ei-uW7"/>
                         <segue destination="s9L-VI-mCf" kind="relationship" relationship="viewControllers" id="DSR-o3-8gL"/>
+                        <segue destination="gvx-kV-XXT" kind="relationship" relationship="viewControllers" id="nZL-dJ-aRz"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SjF-CI-MUW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -151,10 +161,59 @@
             </objects>
             <point key="canvasLocation" x="891" y="673"/>
         </scene>
+        <!--Images-->
+        <scene sceneID="sf2-rD-vUs">
+            <objects>
+                <viewController id="gvx-kV-XXT" customClass="PickerViewController" customModule="TabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z0C-re-uNA">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4gs-Hu-x9u">
+                                <rect key="frame" x="0.0" y="71" width="390" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="gvx-kV-XXT" id="Gnh-pH-sKL"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selected Item:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJw-92-umd">
+                                <rect key="frame" x="16" y="241" width="132" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9I-wi-Eia">
+                                <rect key="frame" x="156" y="241" width="132" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4au-Hu-Kxy">
+                                <rect key="frame" x="75" y="358" width="240" height="412"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mCu-dN-TY8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Images" image="Pictures32.png" id="suu-LA-ko6"/>
+                    <connections>
+                        <outlet property="imageView" destination="4au-Hu-Kxy" id="75C-6q-VGw"/>
+                        <outlet property="lblImageFileName" destination="V9I-wi-Eia" id="oyR-qn-Ivf"/>
+                        <outlet property="pickerImage" destination="4gs-Hu-x9u" id="dzh-3m-V3T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PHW-1B-9QX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1054" y="-787"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Calendar32.png" width="32" height="32"/>
         <image name="File.png" width="1280" height="1124"/>
+        <image name="Pictures32.png" width="32" height="32"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

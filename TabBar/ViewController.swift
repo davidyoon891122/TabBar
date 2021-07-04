@@ -22,6 +22,9 @@ class ViewController: UIViewController {
         tabBarController?.selectedIndex = 2
     }
     
+    @IBAction func btnMoveToPickerVIew(_ sender: UIButton) {
+        tabBarController?.selectedIndex = 3
+    }
     
 }
 

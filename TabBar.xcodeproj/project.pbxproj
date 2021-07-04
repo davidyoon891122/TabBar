@@ -20,6 +20,17 @@
 		AD0AB37426916FA9001324CF /* File.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB37126916FA9001324CF /* File.png */; };
 		AD0AB37526916FA9001324CF /* Calendar32.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB37226916FA9001324CF /* Calendar32.png */; };
 		AD0AB37626916FA9001324CF /* Pictures32.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB37326916FA9001324CF /* Pictures32.png */; };
+		AD0AB38C26917E75001324CF /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB38226917E75001324CF /* 3.jpg */; };
+		AD0AB38D26917E75001324CF /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB38326917E75001324CF /* 6.jpg */; };
+		AD0AB38E26917E75001324CF /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB38426917E75001324CF /* 1.jpg */; };
+		AD0AB38F26917E75001324CF /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB38526917E75001324CF /* 5.jpg */; };
+		AD0AB39026917E75001324CF /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB38626917E75001324CF /* 8.jpg */; };
+		AD0AB39126917E75001324CF /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB38726917E75001324CF /* 9.jpg */; };
+		AD0AB39226917E75001324CF /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB38826917E75001324CF /* 2.jpg */; };
+		AD0AB39326917E75001324CF /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB38926917E75001324CF /* 4.jpg */; };
+		AD0AB39426917E75001324CF /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB38A26917E75001324CF /* 7.jpg */; };
+		AD0AB39526917E75001324CF /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB38B26917E75001324CF /* 10.jpg */; };
+		AD0AB39726917F3D001324CF /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0AB39626917F3D001324CF /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +49,17 @@
 		AD0AB37126916FA9001324CF /* File.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = File.png; sourceTree = "<group>"; };
 		AD0AB37226916FA9001324CF /* Calendar32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar32.png; sourceTree = "<group>"; };
 		AD0AB37326916FA9001324CF /* Pictures32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pictures32.png; sourceTree = "<group>"; };
+		AD0AB38226917E75001324CF /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		AD0AB38326917E75001324CF /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		AD0AB38426917E75001324CF /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		AD0AB38526917E75001324CF /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		AD0AB38626917E75001324CF /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		AD0AB38726917E75001324CF /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		AD0AB38826917E75001324CF /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		AD0AB38926917E75001324CF /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		AD0AB38A26917E75001324CF /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		AD0AB38B26917E75001324CF /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		AD0AB39626917F3D001324CF /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +96,7 @@
 				AD0AB36E26916E4F001324CF /* DateViewController.swift */,
 				AD0AB36C26916C52001324CF /* ImageViewController.swift */,
 				AD0AB36926916B2D001324CF /* lamp_off.png */,
+				AD0AB39626917F3D001324CF /* PickerViewController.swift */,
 				AD0AB36826916B2D001324CF /* lamp_on.png */,
 				AD0AB35026916930001324CF /* AppDelegate.swift */,
 				AD0AB35226916930001324CF /* SceneDelegate.swift */,
@@ -91,6 +114,16 @@
 			children = (
 				AD0AB37226916FA9001324CF /* Calendar32.png */,
 				AD0AB37126916FA9001324CF /* File.png */,
+				AD0AB38426917E75001324CF /* 1.jpg */,
+				AD0AB38826917E75001324CF /* 2.jpg */,
+				AD0AB38226917E75001324CF /* 3.jpg */,
+				AD0AB38926917E75001324CF /* 4.jpg */,
+				AD0AB38526917E75001324CF /* 5.jpg */,
+				AD0AB38326917E75001324CF /* 6.jpg */,
+				AD0AB38A26917E75001324CF /* 7.jpg */,
+				AD0AB38626917E75001324CF /* 8.jpg */,
+				AD0AB38726917E75001324CF /* 9.jpg */,
+				AD0AB38B26917E75001324CF /* 10.jpg */,
 				AD0AB37326916FA9001324CF /* Pictures32.png */,
 			);
 			path = tabImages;
@@ -153,12 +186,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0AB38E26917E75001324CF /* 1.jpg in Resources */,
+				AD0AB38C26917E75001324CF /* 3.jpg in Resources */,
 				AD0AB36A26916B2D001324CF /* lamp_on.png in Resources */,
 				AD0AB37526916FA9001324CF /* Calendar32.png in Resources */,
+				AD0AB39526917E75001324CF /* 10.jpg in Resources */,
 				AD0AB35D26916931001324CF /* LaunchScreen.storyboard in Resources */,
+				AD0AB39026917E75001324CF /* 8.jpg in Resources */,
+				AD0AB38D26917E75001324CF /* 6.jpg in Resources */,
 				AD0AB36B26916B2D001324CF /* lamp_off.png in Resources */,
+				AD0AB39326917E75001324CF /* 4.jpg in Resources */,
 				AD0AB37426916FA9001324CF /* File.png in Resources */,
+				AD0AB39426917E75001324CF /* 7.jpg in Resources */,
+				AD0AB39126917E75001324CF /* 9.jpg in Resources */,
 				AD0AB37626916FA9001324CF /* Pictures32.png in Resources */,
+				AD0AB38F26917E75001324CF /* 5.jpg in Resources */,
+				AD0AB39226917E75001324CF /* 2.jpg in Resources */,
 				AD0AB35A26916931001324CF /* Assets.xcassets in Resources */,
 				AD0AB35826916930001324CF /* Main.storyboard in Resources */,
 			);
@@ -171,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0AB39726917F3D001324CF /* PickerViewController.swift in Sources */,
 				AD0AB36F26916E4F001324CF /* DateViewController.swift in Sources */,
 				AD0AB35526916930001324CF /* ViewController.swift in Sources */,
 				AD0AB35126916930001324CF /* AppDelegate.swift in Sources */,
