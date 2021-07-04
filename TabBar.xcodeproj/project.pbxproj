@@ -13,6 +13,13 @@
 		AD0AB35826916930001324CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB35626916930001324CF /* Main.storyboard */; };
 		AD0AB35A26916931001324CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB35926916931001324CF /* Assets.xcassets */; };
 		AD0AB35D26916931001324CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB35B26916931001324CF /* LaunchScreen.storyboard */; };
+		AD0AB36A26916B2D001324CF /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB36826916B2D001324CF /* lamp_on.png */; };
+		AD0AB36B26916B2D001324CF /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB36926916B2D001324CF /* lamp_off.png */; };
+		AD0AB36D26916C52001324CF /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0AB36C26916C52001324CF /* ImageViewController.swift */; };
+		AD0AB36F26916E4F001324CF /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0AB36E26916E4F001324CF /* DateViewController.swift */; };
+		AD0AB37426916FA9001324CF /* File.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB37126916FA9001324CF /* File.png */; };
+		AD0AB37526916FA9001324CF /* Calendar32.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB37226916FA9001324CF /* Calendar32.png */; };
+		AD0AB37626916FA9001324CF /* Pictures32.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0AB37326916FA9001324CF /* Pictures32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		AD0AB35926916931001324CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0AB35C26916931001324CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD0AB35E26916931001324CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0AB36826916B2D001324CF /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
+		AD0AB36926916B2D001324CF /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		AD0AB36C26916C52001324CF /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		AD0AB36E26916E4F001324CF /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		AD0AB37126916FA9001324CF /* File.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = File.png; sourceTree = "<group>"; };
+		AD0AB37226916FA9001324CF /* Calendar32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar32.png; sourceTree = "<group>"; };
+		AD0AB37326916FA9001324CF /* Pictures32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pictures32.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,11 @@
 		AD0AB34F26916930001324CF /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				AD0AB37026916F94001324CF /* tabImages */,
+				AD0AB36E26916E4F001324CF /* DateViewController.swift */,
+				AD0AB36C26916C52001324CF /* ImageViewController.swift */,
+				AD0AB36926916B2D001324CF /* lamp_off.png */,
+				AD0AB36826916B2D001324CF /* lamp_on.png */,
 				AD0AB35026916930001324CF /* AppDelegate.swift */,
 				AD0AB35226916930001324CF /* SceneDelegate.swift */,
 				AD0AB35426916930001324CF /* ViewController.swift */,
@@ -65,6 +84,16 @@
 				AD0AB35E26916931001324CF /* Info.plist */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		AD0AB37026916F94001324CF /* tabImages */ = {
+			isa = PBXGroup;
+			children = (
+				AD0AB37226916FA9001324CF /* Calendar32.png */,
+				AD0AB37126916FA9001324CF /* File.png */,
+				AD0AB37326916FA9001324CF /* Pictures32.png */,
+			);
+			path = tabImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +153,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0AB36A26916B2D001324CF /* lamp_on.png in Resources */,
+				AD0AB37526916FA9001324CF /* Calendar32.png in Resources */,
 				AD0AB35D26916931001324CF /* LaunchScreen.storyboard in Resources */,
+				AD0AB36B26916B2D001324CF /* lamp_off.png in Resources */,
+				AD0AB37426916FA9001324CF /* File.png in Resources */,
+				AD0AB37626916FA9001324CF /* Pictures32.png in Resources */,
 				AD0AB35A26916931001324CF /* Assets.xcassets in Resources */,
 				AD0AB35826916930001324CF /* Main.storyboard in Resources */,
 			);
@@ -137,8 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0AB36F26916E4F001324CF /* DateViewController.swift in Sources */,
 				AD0AB35526916930001324CF /* ViewController.swift in Sources */,
 				AD0AB35126916930001324CF /* AppDelegate.swift in Sources */,
+				AD0AB36D26916C52001324CF /* ImageViewController.swift in Sources */,
 				AD0AB35326916930001324CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
